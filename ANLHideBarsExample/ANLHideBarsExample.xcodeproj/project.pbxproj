@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9739F5719AD5474004ADA99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9739F5619AD5474004ADA99 /* Foundation.framework */; };
+		D9739F5919AD5474004ADA99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9739F5819AD5474004ADA99 /* CoreGraphics.framework */; };
+		D9739F5B19AD5474004ADA99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9739F5A19AD5474004ADA99 /* UIKit.framework */; };
+		D9739F6119AD5474004ADA99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9739F5F19AD5474004ADA99 /* InfoPlist.strings */; };
+		D9739F6319AD5474004ADA99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F6219AD5474004ADA99 /* main.m */; };
+		D9739F6719AD5474004ADA99 /* ANLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F6619AD5474004ADA99 /* ANLAppDelegate.m */; };
+		D9739F6919AD5474004ADA99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9739F6819AD5474004ADA99 /* Images.xcassets */; };
+		D9739F7019AD5474004ADA99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9739F6F19AD5474004ADA99 /* XCTest.framework */; };
+		D9739F7119AD5474004ADA99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9739F5619AD5474004ADA99 /* Foundation.framework */; };
+		D9739F7219AD5474004ADA99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9739F5A19AD5474004ADA99 /* UIKit.framework */; };
+		D9739F7A19AD5474004ADA99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9739F7819AD5474004ADA99 /* InfoPlist.strings */; };
+		D9739F7C19AD5474004ADA99 /* ANLHideBarsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F7B19AD5474004ADA99 /* ANLHideBarsExampleTests.m */; };
+		D9739F9519AD54C6004ADA99 /* ANLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F8619AD54C6004ADA99 /* ANLCollectionViewCell.m */; };
+		D9739F9619AD54C6004ADA99 /* ANLColletionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F8819AD54C6004ADA99 /* ANLColletionViewController.m */; };
+		D9739F9719AD54C6004ADA99 /* ANLData.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F8A19AD54C6004ADA99 /* ANLData.m */; };
+		D9739F9819AD54C6004ADA99 /* ANLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F8C19AD54C6004ADA99 /* ANLDetailViewController.m */; };
+		D9739F9919AD54C6004ADA99 /* ANLScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F8E19AD54C6004ADA99 /* ANLScrollViewController.m */; };
+		D9739F9A19AD54C6004ADA99 /* ANLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F9019AD54C6004ADA99 /* ANLTableViewCell.m */; };
+		D9739F9B19AD54C6004ADA99 /* ANLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F9219AD54C6004ADA99 /* ANLTableViewController.m */; };
+		D9739FA019AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.m in Sources */ = {isa = PBXBuildFile; fileRef = D9739F9F19AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.m */; };
+		D9739FA519AD5840004ADA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9739FA419AD5840004ADA99 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9739F7319AD5474004ADA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9739F4B19AD5474004ADA99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9739F5219AD5474004ADA99;
+			remoteInfo = ANLHideBarsExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9739F5319AD5474004ADA99 /* ANLHideBarsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANLHideBarsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9739F5619AD5474004ADA99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9739F5819AD5474004ADA99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9739F5A19AD5474004ADA99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9739F5E19AD5474004ADA99 /* ANLHideBarsExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ANLHideBarsExample-Info.plist"; sourceTree = "<group>"; };
+		D9739F6019AD5474004ADA99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9739F6219AD5474004ADA99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9739F6419AD5474004ADA99 /* ANLHideBarsExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANLHideBarsExample-Prefix.pch"; sourceTree = "<group>"; };
+		D9739F6519AD5474004ADA99 /* ANLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANLAppDelegate.h; sourceTree = "<group>"; };
+		D9739F6619AD5474004ADA99 /* ANLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANLAppDelegate.m; sourceTree = "<group>"; };
+		D9739F6819AD5474004ADA99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9739F6E19AD5474004ADA99 /* ANLHideBarsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANLHideBarsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9739F6F19AD5474004ADA99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9739F7719AD5474004ADA99 /* ANLHideBarsExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ANLHideBarsExampleTests-Info.plist"; sourceTree = "<group>"; };
+		D9739F7919AD5474004ADA99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9739F7B19AD5474004ADA99 /* ANLHideBarsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANLHideBarsExampleTests.m; sourceTree = "<group>"; };
+		D9739F8519AD54C6004ADA99 /* ANLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLCollectionViewCell.h; path = ../views/ANLCollectionViewCell.h; sourceTree = "<group>"; };
+		D9739F8619AD54C6004ADA99 /* ANLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLCollectionViewCell.m; path = ../views/ANLCollectionViewCell.m; sourceTree = "<group>"; };
+		D9739F8719AD54C6004ADA99 /* ANLColletionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLColletionViewController.h; path = ../controllers/ANLColletionViewController.h; sourceTree = "<group>"; };
+		D9739F8819AD54C6004ADA99 /* ANLColletionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLColletionViewController.m; path = ../controllers/ANLColletionViewController.m; sourceTree = "<group>"; };
+		D9739F8919AD54C6004ADA99 /* ANLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLData.h; path = ../model/ANLData.h; sourceTree = "<group>"; };
+		D9739F8A19AD54C6004ADA99 /* ANLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLData.m; path = ../model/ANLData.m; sourceTree = "<group>"; };
+		D9739F8B19AD54C6004ADA99 /* ANLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLDetailViewController.h; path = ../controllers/ANLDetailViewController.h; sourceTree = "<group>"; };
+		D9739F8C19AD54C6004ADA99 /* ANLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLDetailViewController.m; path = ../controllers/ANLDetailViewController.m; sourceTree = "<group>"; };
+		D9739F8D19AD54C6004ADA99 /* ANLScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLScrollViewController.h; path = ../controllers/ANLScrollViewController.h; sourceTree = "<group>"; };
+		D9739F8E19AD54C6004ADA99 /* ANLScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLScrollViewController.m; path = ../controllers/ANLScrollViewController.m; sourceTree = "<group>"; };
+		D9739F8F19AD54C6004ADA99 /* ANLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLTableViewCell.h; path = ../views/ANLTableViewCell.h; sourceTree = "<group>"; };
+		D9739F9019AD54C6004ADA99 /* ANLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLTableViewCell.m; path = ../views/ANLTableViewCell.m; sourceTree = "<group>"; };
+		D9739F9119AD54C6004ADA99 /* ANLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANLTableViewController.h; path = ../controllers/ANLTableViewController.h; sourceTree = "<group>"; };
+		D9739F9219AD54C6004ADA99 /* ANLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANLTableViewController.m; path = ../controllers/ANLTableViewController.m; sourceTree = "<group>"; };
+		D9739F9E19AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ANLHideNavigationAndTabBars.h"; path = "category/UIViewController+ANLHideNavigationAndTabBars.h"; sourceTree = "<group>"; };
+		D9739F9F19AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ANLHideNavigationAndTabBars.m"; path = "category/UIViewController+ANLHideNavigationAndTabBars.m"; sourceTree = "<group>"; };
+		D9739FA419AD5840004ADA99 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9739F5019AD5474004ADA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9739F5919AD5474004ADA99 /* CoreGraphics.framework in Frameworks */,
+				D9739F5B19AD5474004ADA99 /* UIKit.framework in Frameworks */,
+				D9739F5719AD5474004ADA99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9739F6B19AD5474004ADA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9739F7019AD5474004ADA99 /* XCTest.framework in Frameworks */,
+				D9739F7219AD5474004ADA99 /* UIKit.framework in Frameworks */,
+				D9739F7119AD5474004ADA99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9739F4A19AD5474004ADA99 = {
+			isa = PBXGroup;
+			children = (
+				D9739F9D19AD54E3004ADA99 /* ANLHideNavigationAndTabBars */,
+				D9739F5C19AD5474004ADA99 /* ANLHideBarsExample */,
+				D9739F7519AD5474004ADA99 /* ANLHideBarsExampleTests */,
+				D9739F5519AD5474004ADA99 /* Frameworks */,
+				D9739F5419AD5474004ADA99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9739F5419AD5474004ADA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F5319AD5474004ADA99 /* ANLHideBarsExample.app */,
+				D9739F6E19AD5474004ADA99 /* ANLHideBarsExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9739F5519AD5474004ADA99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F5619AD5474004ADA99 /* Foundation.framework */,
+				D9739F5819AD5474004ADA99 /* CoreGraphics.framework */,
+				D9739F5A19AD5474004ADA99 /* UIKit.framework */,
+				D9739F6F19AD5474004ADA99 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9739F5C19AD5474004ADA99 /* ANLHideBarsExample */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F6519AD5474004ADA99 /* ANLAppDelegate.h */,
+				D9739F6619AD5474004ADA99 /* ANLAppDelegate.m */,
+				D9739FA319AD574A004ADA99 /* model */,
+				D9739FA219AD5740004ADA99 /* views */,
+				D9739FA119AD5737004ADA99 /* controllers */,
+				D9739F5D19AD5474004ADA99 /* Supporting Files */,
+			);
+			path = ANLHideBarsExample;
+			sourceTree = "<group>";
+		};
+		D9739F5D19AD5474004ADA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9739FA419AD5840004ADA99 /* Main.storyboard */,
+				D9739F6819AD5474004ADA99 /* Images.xcassets */,
+				D9739F5E19AD5474004ADA99 /* ANLHideBarsExample-Info.plist */,
+				D9739F5F19AD5474004ADA99 /* InfoPlist.strings */,
+				D9739F6219AD5474004ADA99 /* main.m */,
+				D9739F6419AD5474004ADA99 /* ANLHideBarsExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9739F7519AD5474004ADA99 /* ANLHideBarsExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F7B19AD5474004ADA99 /* ANLHideBarsExampleTests.m */,
+				D9739F7619AD5474004ADA99 /* Supporting Files */,
+			);
+			path = ANLHideBarsExampleTests;
+			sourceTree = "<group>";
+		};
+		D9739F7619AD5474004ADA99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F7719AD5474004ADA99 /* ANLHideBarsExampleTests-Info.plist */,
+				D9739F7819AD5474004ADA99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9739F9D19AD54E3004ADA99 /* ANLHideNavigationAndTabBars */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F9E19AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.h */,
+				D9739F9F19AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.m */,
+			);
+			name = ANLHideNavigationAndTabBars;
+			sourceTree = "<group>";
+		};
+		D9739FA119AD5737004ADA99 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F9119AD54C6004ADA99 /* ANLTableViewController.h */,
+				D9739F9219AD54C6004ADA99 /* ANLTableViewController.m */,
+				D9739F8719AD54C6004ADA99 /* ANLColletionViewController.h */,
+				D9739F8819AD54C6004ADA99 /* ANLColletionViewController.m */,
+				D9739F8D19AD54C6004ADA99 /* ANLScrollViewController.h */,
+				D9739F8E19AD54C6004ADA99 /* ANLScrollViewController.m */,
+				D9739F8B19AD54C6004ADA99 /* ANLDetailViewController.h */,
+				D9739F8C19AD54C6004ADA99 /* ANLDetailViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		D9739FA219AD5740004ADA99 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F8519AD54C6004ADA99 /* ANLCollectionViewCell.h */,
+				D9739F8619AD54C6004ADA99 /* ANLCollectionViewCell.m */,
+				D9739F8F19AD54C6004ADA99 /* ANLTableViewCell.h */,
+				D9739F9019AD54C6004ADA99 /* ANLTableViewCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		D9739FA319AD574A004ADA99 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D9739F8919AD54C6004ADA99 /* ANLData.h */,
+				D9739F8A19AD54C6004ADA99 /* ANLData.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9739F5219AD5474004ADA99 /* ANLHideBarsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9739F7F19AD5474004ADA99 /* Build configuration list for PBXNativeTarget "ANLHideBarsExample" */;
+			buildPhases = (
+				D9739F4F19AD5474004ADA99 /* Sources */,
+				D9739F5019AD5474004ADA99 /* Frameworks */,
+				D9739F5119AD5474004ADA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANLHideBarsExample;
+			productName = ANLHideBarsExample;
+			productReference = D9739F5319AD5474004ADA99 /* ANLHideBarsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9739F6D19AD5474004ADA99 /* ANLHideBarsExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9739F8219AD5474004ADA99 /* Build configuration list for PBXNativeTarget "ANLHideBarsExampleTests" */;
+			buildPhases = (
+				D9739F6A19AD5474004ADA99 /* Sources */,
+				D9739F6B19AD5474004ADA99 /* Frameworks */,
+				D9739F6C19AD5474004ADA99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9739F7419AD5474004ADA99 /* PBXTargetDependency */,
+			);
+			name = ANLHideBarsExampleTests;
+			productName = ANLHideBarsExampleTests;
+			productReference = D9739F6E19AD5474004ADA99 /* ANLHideBarsExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9739F4B19AD5474004ADA99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Amador Navarro Lucas";
+				TargetAttributes = {
+					D9739F6D19AD5474004ADA99 = {
+						TestTargetID = D9739F5219AD5474004ADA99;
+					};
+				};
+			};
+			buildConfigurationList = D9739F4E19AD5474004ADA99 /* Build configuration list for PBXProject "ANLHideBarsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9739F4A19AD5474004ADA99;
+			productRefGroup = D9739F5419AD5474004ADA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9739F5219AD5474004ADA99 /* ANLHideBarsExample */,
+				D9739F6D19AD5474004ADA99 /* ANLHideBarsExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9739F5119AD5474004ADA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9739FA519AD5840004ADA99 /* Main.storyboard in Resources */,
+				D9739F6119AD5474004ADA99 /* InfoPlist.strings in Resources */,
+				D9739F6919AD5474004ADA99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9739F6C19AD5474004ADA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9739F7A19AD5474004ADA99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9739F4F19AD5474004ADA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9739F9919AD54C6004ADA99 /* ANLScrollViewController.m in Sources */,
+				D9739F9719AD54C6004ADA99 /* ANLData.m in Sources */,
+				D9739F9519AD54C6004ADA99 /* ANLCollectionViewCell.m in Sources */,
+				D9739F9A19AD54C6004ADA99 /* ANLTableViewCell.m in Sources */,
+				D9739F6719AD5474004ADA99 /* ANLAppDelegate.m in Sources */,
+				D9739F9819AD54C6004ADA99 /* ANLDetailViewController.m in Sources */,
+				D9739FA019AD5524004ADA99 /* UIViewController+ANLHideNavigationAndTabBars.m in Sources */,
+				D9739F9B19AD54C6004ADA99 /* ANLTableViewController.m in Sources */,
+				D9739F9619AD54C6004ADA99 /* ANLColletionViewController.m in Sources */,
+				D9739F6319AD5474004ADA99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9739F6A19AD5474004ADA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9739F7C19AD5474004ADA99 /* ANLHideBarsExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9739F7419AD5474004ADA99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9739F5219AD5474004ADA99 /* ANLHideBarsExample */;
+			targetProxy = D9739F7319AD5474004ADA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9739F5F19AD5474004ADA99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9739F6019AD5474004ADA99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9739F7819AD5474004ADA99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9739F7919AD5474004ADA99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9739F7D19AD5474004ADA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9739F7E19AD5474004ADA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9739F8019AD5474004ADA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANLHideBarsExample/ANLHideBarsExample-Prefix.pch";
+				INFOPLIST_FILE = "ANLHideBarsExample/ANLHideBarsExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9739F8119AD5474004ADA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANLHideBarsExample/ANLHideBarsExample-Prefix.pch";
+				INFOPLIST_FILE = "ANLHideBarsExample/ANLHideBarsExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9739F8319AD5474004ADA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ANLHideBarsExample.app/ANLHideBarsExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANLHideBarsExample/ANLHideBarsExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ANLHideBarsExampleTests/ANLHideBarsExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D9739F8419AD5474004ADA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ANLHideBarsExample.app/ANLHideBarsExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANLHideBarsExample/ANLHideBarsExample-Prefix.pch";
+				INFOPLIST_FILE = "ANLHideBarsExampleTests/ANLHideBarsExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9739F4E19AD5474004ADA99 /* Build configuration list for PBXProject "ANLHideBarsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9739F7D19AD5474004ADA99 /* Debug */,
+				D9739F7E19AD5474004ADA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9739F7F19AD5474004ADA99 /* Build configuration list for PBXNativeTarget "ANLHideBarsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9739F8019AD5474004ADA99 /* Debug */,
+				D9739F8119AD5474004ADA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9739F8219AD5474004ADA99 /* Build configuration list for PBXNativeTarget "ANLHideBarsExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9739F8319AD5474004ADA99 /* Debug */,
+				D9739F8419AD5474004ADA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9739F4B19AD5474004ADA99 /* Project object */;
+}
